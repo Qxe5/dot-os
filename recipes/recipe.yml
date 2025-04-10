@@ -9,9 +9,12 @@ image-version: 41
 modules:
   - type: rpm-ostree
     remove:
-      - gnome-tour
       - firefox
       - firefox-langpacks
+      - gnome-tour
+      - malcontent-control
+    install:
+      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
   - type: default-flatpaks
     user:
