@@ -13,5 +13,6 @@ modules:
       - firefox-langpacks
 
   - type: default-flatpaks
+    user: {}
 
   - type: signing
