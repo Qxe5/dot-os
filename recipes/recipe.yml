@@ -8,6 +8,8 @@ image-version: 41
 
 modules:
   - type: rpm-ostree
+    optfix:
+      - google
     remove:
       - firefox
       - firefox-langpacks
