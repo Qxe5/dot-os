@@ -1,0 +1,14 @@
+[org.gnome.desktop.peripherals.touchpad]
+click-method=areas
+
+[org.gnome.shell]
+favorite-apps=@as []
+
+[org.gnome.system.location]
+enabled=false
+
+[org.gnome.settings-daemon.plugins.color]
+night-light-enabled=true
+night-light-schedule-from=0.0
+night-light-schedule-to=0.0
+night-light-temperature=uint32 1700

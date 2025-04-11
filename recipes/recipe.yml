@@ -18,16 +18,22 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - gnome-color-manager
       - gnome-disk-utility
       - gnome-system-monitor
       - gnome-tour
       - malcontent-control
       - yelp
     install:
+      # VS Code
       - https://go.microsoft.com/fwlink/?LinkID=760867
+      # Google Chrome
       - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
   - type: default-flatpaks
-    user: {}
+
+  - type: gschema-overrides
+    include:
+      - zz1-override.gschema.override
 
   - type: signing
