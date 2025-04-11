@@ -3,7 +3,7 @@
 name: dot-os
 description: Dot OS
 
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: quay.io/fedora/fedora-silverblue
 image-version: 41
 
 modules:
