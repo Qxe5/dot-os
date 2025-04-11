@@ -1,5 +1,5 @@
 [org.gnome.desktop.peripherals.touchpad]
-click-method=areas
+click-method='areas'
 
 [org.gnome.shell]
 favorite-apps=@as []
