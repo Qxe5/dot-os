@@ -21,6 +21,7 @@ modules:
       - gnome-tour
       - malcontent-control
     install:
+      - https://vscode.download.prss.microsoft.com/dbazure/download/stable/4949701c880d4bdb949e3c0e6b400288da7f474b/code-1.99.2-1744250112.el8.x86_64.rpm
       - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
   - type: default-flatpaks
