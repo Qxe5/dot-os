@@ -18,8 +18,11 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - gnome-disk-utility
+      - gnome-system-monitor
       - gnome-tour
       - malcontent-control
+      - yelp
     install:
       - https://go.microsoft.com/fwlink/?LinkID=760867
       - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
